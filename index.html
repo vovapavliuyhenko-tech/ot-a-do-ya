@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="format-detection" content="telephone=no">
+  <title>От А до Я — стоматология в Геленджике на Киевской, 48Б</title>
+  <meta name="description" content="Стоматология «От А до Я» в Геленджике: лечение зубов, протезирование, имплантация, хирургия, гигиена и отбеливание. Помогаем местным жителям и отдыхающим. Рейтинг 5,0 на Яндекс Картах.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+  <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js" crossorigin>
+  <link rel="modulepreload" href="opal3d-shapes.js">
+</head>
+<body class="theme-brand">
+
+<!-- ============ Шапка ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="От А до Я — на главную">
+      <svg class="logo__mark logo__mark--oay" viewBox="0 0 48 52" aria-hidden="true"><path d="M8 13C7 6 12 2.5 18 3.2c3.3.4 4.6 2 6 2s2.7-1.6 6-2C36 2.5 41 6 40 13c-.7 5-3.2 8.2-3.8 14-.7 7.3-1.6 20.5-5.6 21.6-3 .8-3.8-9.6-6.6-9.6" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 17c4 3 9 3.6 13 2.4 4.4-1.3 8-1.5 12 .6M13 23.5c3.6 2.4 7.6 2.8 11 1.8 3.8-1.2 7-1.2 10.5.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity=".55"/></svg>
+      <span class="logo__text logo__text--oay">от А до Я<small>стоматология</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#clinic">Клиника</a>
+      <a href="#doctors">Врачи</a>
+      <a href="#reviews">Отзывы</a>
+    </nav>
+    <div class="header__right">
+      <a href="tel:+79615905590" class="header__phone">+7 (961) 590-55-90</a>
+      <a href="#booking" class="btn btn--blue btn--sm">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero container">
+    <div class="hero__left">
+      <h1 class="hero__title reveal">
+        <span class="hero__pill" aria-hidden="true"></span>Лечим зубы<br>
+        <span class="nowrap">от А до Я <a href="#visit" class="btn-outline"><svg width="10" height="11" viewBox="0 0 10 11"><path d="M1.5 1.3v8.4L8.6 5.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Как проходит приём</a></span><br>
+        в Геленджике
+      </h1>
+      <p class="hero__lead reveal">Лечение, протезирование, имплантация, хирургия и гигиена на Киевской, 48Б. Помогаем местным жителям и отдыхающим.</p>
+      <div class="hero__actions reveal">
+        <a href="#booking" class="btn btn--blue btn--lg">Записаться на приём <i class="arr"></i></a>
+        <a href="tel:+79615905590" class="btn btn--ghost btn--lg">
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Позвонить
+        </a>
+        <a href="#visit" class="hero__how"><svg width="10" height="11" viewBox="0 0 10 11" aria-hidden="true"><path d="M1.5 1.3v8.4L8.6 5.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Как проходит приём</a>
+      </div>
+      <div class="hero__bottom reveal">
+        <a class="hero__rating" href="https://yandex.ru/maps/org/ot_a_do_ya/218454430391/reviews/" target="_blank" rel="noopener">
+          <span class="hero__avatars" aria-hidden="true"><i style="--c1:#b9c9ec;--c2:#3a5a9c">М</i><i style="--c1:#f7b2c9;--c2:#e27fa4">Е</i><i style="--c1:#a5e0e6;--c2:#6ec0cc">А</i></span>
+          <span class="hero__rating-text"><b>5,0 <span class="hero__stars">★★★★★</span></b><span>96 оценок на Яндекс Картах</span></span>
+        </a>
+        <ul class="hero__features">
+          <li>Без боли</li><li>Коронки</li><li>Импланты</li><li>Отдыхающим</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <a href="tel:+79615905590" class="card card--hero-main reveal">
+        <h2 class="card__title-lg">Заболел зуб<br>в отпуске?<br>Звоните</h2>
+        <div class="obj3d obj3d--hero-tooth" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+        <p class="card__note">Отдыхающие пишут в отзывах, что их принимали в день обращения. Позвоните — подберём ближайшее время.</p>
+        <span class="circle-btn circle-btn--lg"><i class="arr"></i></span>
+      </a>
+      <a href="#reviews" class="card card--hero-blue reveal">
+        <span class="chip">лечение</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d obj3d--bubble" data-shape="bubble"><img data-src="img/o_bubble.webp" alt="" decoding="async"></div>
+        <div class="card__bottom">
+          <h3 class="card__title-md">Сохраняем<br>свои зубы</h3>
+          <p class="card__text">Врачи нацелены на сохранение зуба — так пишут пациенты в отзывах.</p>
+        </div>
+      </a>
+      <a href="#reviews" class="card card--hero-green reveal">
+        <span class="chip">Яндекс Карты</span>
+        <div class="card__bottom">
+          <div class="counter">5,0</div>
+          <p class="card__text">Рейтинг по 96 оценкам и 56 отзывам пациентов.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ Услуги (цены — прайс клиники на Яндекс Картах) ============ -->
+  <section class="section container" id="services">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Услуги</span>
+        <h2 class="h2 reveal">Шесть направлений,<br><span class="muted">одна клиника</span></h2>
+      </div>
+      <p class="lead reveal">От лечения кариеса до имплантов и коронок — всё в одной клинике на Киевской, 48Б в Геленджике.</p>
+    </div>
+
+    <div class="services">
+      <article class="service service--1 reveal">
+        <span class="service__num">01</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="implant"><img data-src="img/o_implant.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Имплантация</h3>
+          <p class="service__text">Импланты Paltop (США) и Alfa-Bio (Израиль),<br>наращивание кости и синус-лифтинг.</p>
+        </div>
+        <div class="price"><b>40 000 ₽</b><span>имплантат</span></div>
+      </article>
+
+      <article class="service service--2 reveal">
+        <span class="service__num">02</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Хирургия</h3>
+          <p class="service__text">Удаление зубов, в том числе сложных зубов мудрости.</p>
+        </div>
+        <div class="price"><b>от 4 000 ₽</b><span>удаление</span></div>
+      </article>
+
+      <article class="service service--3 reveal">
+        <span class="service__num">03</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="veneer"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Протезирование</h3>
+          <p class="service__text">Коронки из циркония и керамики, виниры, съёмные протезы и протезы на имплантах.</p>
+        </div>
+        <div class="price"><b>от 6 000 ₽</b><span>коронка</span></div>
+      </article>
+
+      <article class="service service--4 reveal">
+        <span class="service__num">04</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="star"><img data-src="img/o_star.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Отбеливание</h3>
+          <p class="service__text">Профессиональное отбеливание одной или обеих челюстей.</p>
+        </div>
+        <div class="price"><b>от 8 000 ₽</b><span>1 челюсть</span></div>
+      </article>
+
+      <article class="service service--5 reveal">
+        <span class="service__num">05</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="lens"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Лечение зубов</h3>
+          <p class="service__text">Кариес, пульпит и каналы — с коффердамом и рентгеном.</p>
+        </div>
+        <div class="price"><b>от 5 000 ₽</b><span>пломба</span></div>
+      </article>
+
+      <article class="service service--6 reveal">
+        <span class="service__num">06</span>
+        <span class="circle-btn"><i class="arr"></i></span>
+        <div class="obj3d" data-shape="drop"><img data-src="img/o_drop.webp" alt="" decoding="async"></div>
+        <div class="service__body">
+          <h3 class="service__title">Профгигиена</h3>
+          <p class="service__text">Ультразвук и Air Flow — убираем камень и налёт.<br>Полная гигиена полости рта.</p>
+        </div>
+        <div class="price"><b>4 000 ₽</b><span>полная гигиена</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ До и после ============ -->
+  <!-- Фото «до/после» — временные, замените на реальные работы клиники (img/*_before.webp, img/*_after.webp) -->
+  <section class="section container" id="cases">
+    <div class="section__head section__head--center-y">
+      <div>
+        <span class="label reveal">До и после</span>
+        <h2 class="h2 reveal">Как меняется<br><span class="muted">улыбка</span></h2>
+      </div>
+      <div class="tabs reveal" role="tablist" id="caseTabs">
+        <span class="tabs__bg" aria-hidden="true"></span>
+        <button class="tabs__btn is-active" role="tab" data-case="0">Протезирование</button>
+        <button class="tabs__btn" role="tab" data-case="1">Лечение</button>
+      </div>
+    </div>
+
+    <div class="cases reveal">
+      <div class="compare" id="compare" style="--pos:50%">
+        <img class="compare__img compare__after" id="imgAfter" src="img/vn_after.webp" alt="После лечения" width="685" height="460" loading="lazy" decoding="async">
+        <img class="compare__img compare__before" id="imgBefore" src="img/vn_before.webp" alt="До лечения" width="685" height="460" loading="lazy" decoding="async">
+        <span class="compare__line"></span>
+        <button class="compare__handle" aria-label="Сдвинуть разделитель">
+          <svg width="18" height="14" viewBox="0 0 18 14"><path d="M6 1 1 7l5 6M12 1l5 6-5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="tag tag--light compare__tag-l">До</span>
+        <span class="tag tag--dark compare__tag-r">После</span>
+      </div>
+
+      <div class="case" id="caseCard">
+        <span class="chip">кейс</span>
+        <div class="obj3d case__obj" data-shape="veneer" id="caseObj"><img data-src="img/o_pill.webp" alt="" decoding="async"></div>
+        <div class="case__content" id="caseContent">
+          <h3 class="case__title" id="caseTitle">Протезирование</h3>
+          <p class="case__text" id="caseText">Не раз обращался за протезированием, лечением и имплантацией к Янису Ониковичу и Антону Ониковичу.</p>
+        </div>
+        <div class="case__stats">
+          <div class="stat"><span id="lbl1">Работа</span><b id="stVisits">Протезы</b></div>
+          <div class="stat"><span id="lbl2">Также</span><b id="stTerm">Импланты</b></div>
+          <div class="stat"><span id="lbl3">Страх</span><b id="stPrice">Нет</b></div>
+        </div>
+        <div class="case__quote">
+          <p id="caseQuote">«Лично не испытывал чувства страха в ходе лечения»</p>
+          <span id="caseAuthor">Алексей И., отзыв на Яндекс Картах</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Клиника (фото — карточка клиники на Яндекс Картах) ============ -->
+  <section class="section container" id="clinic">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Клиника</span>
+        <h2 class="h2 reveal">Уютная клиника,<br><span class="muted">куда идут как домой</span></h2>
+      </div>
+      <p class="lead reveal">Геленджик, Киевская ул., 48Б. Пациенты отмечают чистый холл, современное оборудование и приветливых администраторов.</p>
+    </div>
+
+    <div class="gallery reveal">
+      <figure class="gallery__item gallery__item--big">
+        <img src="img/oa_hall.webp" alt="Холл стоматологии От А до Я" width="800" height="534" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Холл</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/oa_cabinet.webp" alt="Стоматологический кабинет" width="800" height="534" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Кабинет</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/oa_entrance.webp" alt="Вход в клинику" width="800" height="534" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Вход</figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--wide-m">
+        <img src="img/oa_lounge.webp" alt="Зона ожидания с сертификатами врачей" width="800" height="534" loading="lazy" decoding="async">
+        <figcaption class="tag tag--light">Зона ожидания</figcaption>
+      </figure>
+      <div class="gallery__facts">
+        <div><b>5,0</b><span>96 оценок на Яндекс Картах</span></div>
+        <div><b>пн–сб</b><span>работаем</span></div>
+        <div><b>48Б</b><span>Киевская улица</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Врачи (имена — из отзывов на Яндекс Картах) ============ -->
+  <!-- Фото врачей нет — стоят монограммы. Замените: <img src="img/doctor-....webp"> внутри .doctor__photo -->
+  <section class="section container" id="doctors">
+    <div class="section__head">
+      <div>
+        <span class="label reveal">Команда</span>
+        <h2 class="h2 reveal">Два врача,<br><span class="muted">к которым возвращаются</span></h2>
+      </div>
+      <p class="lead reveal">Пациенты годами лечатся у Антона Ониковича и Яниса Ониковича и приезжают к ним даже из других городов.</p>
+    </div>
+
+    <div class="doctors">
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#c9d6f1;--g2:#3a5a9c">
+          <span class="doctor__mono">АБ</span>
+          <div class="doctor__bar"><span>Терапия</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Басонов Антон Оникович</h3>
+        <p class="doctor__role">Стоматолог-терапевт · лечение зубов</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#bcd8f3;--g2:#7fb0e2">
+          <span class="doctor__mono">ЯБ</span>
+          <div class="doctor__bar"><span>Коронки и импланты</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Басонов Янис Оникович</h3>
+        <p class="doctor__role">Протезирование · имплантация</p>
+      </article>
+      <!-- Карточка по специальности — впишите имя врача -->
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#f1cde0;--g2:#d99abd">
+          <svg class="doctor__icon" viewBox="0 0 48 52" aria-hidden="true"><path d="M8 13C7 6 12 2.5 18 3.2c3.3.4 4.6 2 6 2s2.7-1.6 6-2C36 2.5 41 6 40 13c-.7 5-3.2 8.2-3.8 14-.7 7.3-1.6 20.5-5.6 21.6-3 .8-3.8-9.6-6.6-9.6s-3.6 10.4-6.6 9.6c-4-1.1-4.9-14.3-5.6-21.6C11.2 21.2 8.7 18 8 13Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          <div class="doctor__bar"><span>Удаление от 4 000 ₽</span><a href="#booking" class="btn btn--dark btn--xs">Записаться <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Врач-хирург</h3>
+        <p class="doctor__role">Удаление зубов · «руки у хирурга золотые»</p>
+      </article>
+      <article class="doctor reveal">
+        <div class="doctor__photo doctor__photo--mono" style="--g1:#c4ebe5;--g2:#80c7bc">
+          <span class="doctor__mono">ЕО</span>
+          <div class="doctor__bar"><span>Запись на приём</span><a href="tel:+79615905590" class="btn btn--dark btn--xs">Позвонить <i class="arr"></i></a></div>
+        </div>
+        <h3 class="doctor__name">Екатерина и Олеся</h3>
+        <p class="doctor__role">Администраторы · подберут удобное время</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ Первый визит ============ -->
+  <section class="section container visit" id="visit">
+    <div class="visit__media reveal">
+      <img src="img/oa_cabinet.webp" alt="Кабинет стоматологии От А до Я" width="800" height="534" loading="lazy" decoding="async">
+      <span class="tag tag--light visit__tag"><i class="dot"></i>Киевская, 48Б</span>
+      <div class="visit__price">
+        <b>5,0 ★</b>
+        <span>рейтинг на Яндекс Картах по 96 оценкам</span>
+      </div>
+    </div>
+    <div class="visit__content">
+      <span class="label reveal">Первый визит</span>
+      <h2 class="h2 reveal">Сначала план и цена,<br><span class="muted">потом лечение</span></h2>
+      <ol class="steps" id="steps">
+        <li class="step">
+          <span class="step__num">01</span>
+          <h3>Звонок или заявка</h3>
+          <p>Администраторы подберут врача и удобное время — местным и тем, кто на отдыхе.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">02</span>
+          <h3>Осмотр и снимок</h3>
+          <p>Врач осмотрит зубы и при необходимости сделает рентгеновский снимок.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">03</span>
+          <h3>План и стоимость</h3>
+          <p>Врач на пальцах объяснит, что происходит и что нужно сделать, и назовёт цену.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">04</span>
+          <h3>Лечение без боли</h3>
+          <p>Пациенты пишут, что не было больно, даже если они очень боялись стоматологов.</p>
+        </li>
+        <li class="step step--cta">
+          <span class="step__num">05</span>
+          <div class="step-cta">
+            <h3>Ваш шаг — запись на приём</h3>
+            <p>Оставьте заявку или позвоните — подберём врача и удобное время.</p>
+            <div class="step-cta__actions">
+              <a href="#booking" class="btn btn--blue btn--lg">Записаться <i class="arr"></i></a>
+              <a href="tel:+79615905590" class="btn btn--ghost btn--lg">
+                <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                +7 (961) 590-55-90
+              </a>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ Отзывы (короткие цитаты с Яндекс Карт) ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="container reviews__head">
+      <span class="label reveal">Отзывы</span>
+      <h2 class="h2 reveal">Что говорят<br><span class="muted">пациенты</span></h2>
+      <a class="rating reveal" href="https://yandex.ru/maps/org/ot_a_do_ya/218454430391/reviews/" target="_blank" rel="noopener">
+        <b>5,0</b><span class="rating__stars">★★★★★</span><span>96 оценок на Яндекс Картах</span><i class="arr"></i>
+      </a>
+    </div>
+    <div class="marquee reveal">
+      <div class="marquee__track" data-dir="left">
+        <figure class="review"><blockquote>Позвонили, договорились на время приёма в этот же день.</blockquote><figcaption><i class="ava" style="--c1:#b9c9ec;--c2:#3a5a9c">Е</i><b>Евгений</b> · отдыхал в Геленджике</figcaption></figure>
+        <figure class="review"><blockquote>Мне ни разу не было больно, хотя я бояка 180-го уровня!</blockquote><figcaption><i class="ava" style="--c1:#f7b2c9;--c2:#e27fa4">М</i><b>Мария</b> · терапия и коронки</figcaption></figure>
+        <figure class="review"><blockquote>Пролечили мне 2 зуба за 30 минут.</blockquote><figcaption><i class="ava" style="--c1:#a5e0e6;--c2:#6ec0cc">И</i><b>Иван</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Посещаем всей семьёй несколько лет. Рекомендую однозначно!</blockquote><figcaption><i class="ava" style="--c1:#f0c6f0;--c2:#d39ae0">М</i><b>Мария</b> · вся семья</figcaption></figure>
+        <figure class="review"><blockquote>Врачи нацелены на сохранение зуба.</blockquote><figcaption><i class="ava" style="--c1:#fbd0d6;--c2:#f0a2ae">В</i><b>Владимир</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Исправили по гарантии бесплатно.</blockquote><figcaption><i class="ava" style="--c1:#bfe3c9;--c2:#7cc495">А</i><b>Алекс</b> · лечение</figcaption></figure>
+      </div>
+      <div class="marquee__track" data-dir="right">
+        <figure class="review"><blockquote>Удаление двух зубов прошло быстро, безболезненно, без воспалений и осложнений.</blockquote><figcaption><i class="ava" style="--c1:#a9d3f3;--c2:#6fa8dd">М</i><b>Мария</b> · хирургия</figcaption></figure>
+        <figure class="review"><blockquote>Приятно удивили цены.</blockquote><figcaption><i class="ava" style="--c1:#d2b8f5;--c2:#a083e6">Ф</i><b>Фуад</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Чистая новая клиника. Доктора очень приятные!</blockquote><figcaption><i class="ava" style="--c1:#b5ebc2;--c2:#73cc8c">Ю</i><b>Юлия</b> · клиника</figcaption></figure>
+        <figure class="review"><blockquote>Лечусь у данных докторов несколько лет. Они лучшие специалисты в Геленджике.</blockquote><figcaption><i class="ava" style="--c1:#fbe0b8;--c2:#f0b875">А</i><b>Андрей</b> · лечение</figcaption></figure>
+        <figure class="review"><blockquote>Доктор буквально на пальцах объясняет, что происходит до и после лечения.</blockquote><figcaption><i class="ava" style="--c1:#c6d0f7;--c2:#8d9de6">С</i><b>Светлана</b> · консультация</figcaption></figure>
+        <figure class="review"><blockquote>После такого лечения вообще перестаёшь бояться садиться в кресло к стоматологу.</blockquote><figcaption><i class="ava" style="--c1:#f5c2d6;--c2:#e08aae">Е</i><b>Екатерина</b> · лечение</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Запись ============ -->
+  <section class="section container" id="booking">
+    <div class="cta reveal">
+      <div class="cta__left">
+        <span class="chip">запись</span>
+        <h2 class="cta__title">Запишитесь<br>на приём<br>к стоматологу</h2>
+        <p class="cta__text">Оставьте телефон — администратор перезвонит в рабочее время и подберёт удобный день.</p>
+      </div>
+      <div class="obj3d cta__tooth" data-shape="tooth"><img data-src="img/o_tooth.webp" alt="" decoding="async"></div>
+      <form class="form" id="form" novalidate>
+        <label class="field">
+          <span>Имя</span>
+          <input type="text" name="name" placeholder="Как к вам обращаться" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span>Телефон</span>
+          <input type="tel" name="phone" id="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required>
+        </label>
+        <div class="field field--select select" id="topic">
+          <span class="field__label" id="topicLabel">Что беспокоит</span>
+          <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="topicLabel">
+            <span class="select__value">Болит зуб</span>
+            <svg class="field__chev" width="12" height="8" viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <ul class="select__list" role="listbox" aria-labelledby="topicLabel">
+            <li class="select__opt" role="option" aria-selected="true">Болит зуб</li>
+            <li class="select__opt" role="option" aria-selected="false">Я на отдыхе — нужна срочная помощь</li>
+            <li class="select__opt" role="option" aria-selected="false">Нужно удалить зуб</li>
+            <li class="select__opt" role="option" aria-selected="false">Коронки и протезы</li>
+            <li class="select__opt" role="option" aria-selected="false">Имплантация</li>
+            <li class="select__opt" role="option" aria-selected="false">Отбеливание</li>
+            <li class="select__opt" role="option" aria-selected="false">Профгигиена</li>
+            <li class="select__opt" role="option" aria-selected="false">Пока не знаю, нужен осмотр</li>
+          </ul>
+          <input type="hidden" name="topic" value="Болит зуб">
+        </div>
+        <label class="consent">
+          <input type="checkbox" name="consent" id="consent" required>
+          <span class="consent__box" aria-hidden="true"></span>
+          <span class="consent__text">Даю согласие на обработку персональных данных и соглашаюсь с <a href="privacy.html" target="_blank">политикой конфиденциальности</a></span>
+        </label>
+        <button type="submit" class="btn btn--white btn--block">Записаться <i class="arr"></i></button>
+        <p class="form__ok" id="formOk">Спасибо! Администратор скоро перезвонит.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ============ Подвал ============ -->
+<footer class="footer container">
+  <div class="footer__cols">
+    <div><span>Адрес</span><p>Геленджик, Киевская ул., 48Б<br><a href="https://yandex.ru/maps/org/ot_a_do_ya/218454430391/" target="_blank" rel="noopener">Построить маршрут ↗</a></p></div>
+    <div><span>Часы</span><p>пн–пт 09:00–19:00<br>сб 09:00–16:00, вс — выходной</p></div>
+    <div><span>Связь</span><p><a href="tel:+79615905590">+7 (961) 590-55-90</a><br><a href="https://t.me/+79615905590" target="_blank" rel="noopener">Telegram</a> · <a href="https://max.ru/u/f9LHodD0cOK4bLVOJTNrC34VUM-HxP2iXIGXCnLXx8zhg3BtIsU1xWsGoA0" target="_blank" rel="noopener">MAX</a></p></div>
+    <div><span>Разделы</span><p><a href="#services">Услуги</a> · <a href="#clinic">Клиника</a><br><a href="#doctors">Врачи</a> · <a href="#reviews">Отзывы</a></p></div>
+  </div>
+  <div class="footer__ticker" aria-hidden="true">
+    <div class="footer__track">
+      <span class="footer__item"><svg class="footer__mark footer__mark--oay" viewBox="0 0 48 52"><path d="M8 13C7 6 12 2.5 18 3.2c3.3.4 4.6 2 6 2s2.7-1.6 6-2C36 2.5 41 6 40 13c-.7 5-3.2 8.2-3.8 14-.7 7.3-1.6 20.5-5.6 21.6-3 .8-3.8-9.6-6.6-9.6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 17c4 3 9 3.6 13 2.4 4.4-1.3 8-1.5 12 .6M13 23.5c3.6 2.4 7.6 2.8 11 1.8 3.8-1.2 7-1.2 10.5.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".55"/></svg><span class="footer__word"><b>от А до Я</b><i>СТОМАТОЛОГИЯ В ГЕЛЕНДЖИКЕ</i></span></span>
+      <span class="footer__item"><svg class="footer__mark footer__mark--oay" viewBox="0 0 48 52"><path d="M8 13C7 6 12 2.5 18 3.2c3.3.4 4.6 2 6 2s2.7-1.6 6-2C36 2.5 41 6 40 13c-.7 5-3.2 8.2-3.8 14-.7 7.3-1.6 20.5-5.6 21.6-3 .8-3.8-9.6-6.6-9.6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 17c4 3 9 3.6 13 2.4 4.4-1.3 8-1.5 12 .6M13 23.5c3.6 2.4 7.6 2.8 11 1.8 3.8-1.2 7-1.2 10.5.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".55"/></svg><span class="footer__word"><b>от А до Я</b><i>СТОМАТОЛОГИЯ В ГЕЛЕНДЖИКЕ</i></span></span>
+      <span class="footer__item"><svg class="footer__mark footer__mark--oay" viewBox="0 0 48 52"><path d="M8 13C7 6 12 2.5 18 3.2c3.3.4 4.6 2 6 2s2.7-1.6 6-2C36 2.5 41 6 40 13c-.7 5-3.2 8.2-3.8 14-.7 7.3-1.6 20.5-5.6 21.6-3 .8-3.8-9.6-6.6-9.6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 17c4 3 9 3.6 13 2.4 4.4-1.3 8-1.5 12 .6M13 23.5c3.6 2.4 7.6 2.8 11 1.8 3.8-1.2 7-1.2 10.5.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".55"/></svg><span class="footer__word"><b>от А до Я</b><i>СТОМАТОЛОГИЯ В ГЕЛЕНДЖИКЕ</i></span></span>
+    </div>
+  </div>
+  <p class="footer__warn">Имеются противопоказания. Необходима консультация специалиста</p>
+  <div class="footer__bottom">
+    <span>© 2026 «От А до Я», стоматология в Геленджике</span>
+    <nav class="footer__legal" aria-label="Документы">
+      <a href="privacy.html">Политика конфиденциальности</a>
+      <a href="offer.html">Публичная оферта</a>
+      <a href="cookies.html">Cookie</a>
+    </nav>
+    <a class="dev-link" href="https://t.me/vladimir_nvrs" target="_blank" rel="noopener">
+      <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2l-11 6.9-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg>
+      Разработчик
+    </a>
+  </div>
+</footer>
+
+<script src="common.js"></script>
+<script src="script.js"></script>
+<script type="module" src="opal3d.js"></script>
+</body>
+</html>
